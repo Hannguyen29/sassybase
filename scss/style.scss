@@ -1,8 +1,19 @@
-$color-background: rgb(154, 245, 142) ;
+/* GLOBAL RESETS */
+* { box-sizing: border-box;}
 
+// VARIABLES
+$color-text-body: rgb(0,0,0,.8);
+$color-text-heading: rgb(0,0,0,1);
+$color-accent: rgb(68, 115, 175);
+$color-accent-dark: rgb(113, 161, 224);
+
+$color-lightgrey: rgba(0,0,0,.5);
+
+$font-family-sans: 'Source Sans Pro', Helvetica, Arial, Helvetica;
+$font-family-serif: sans-serif, Georgia, 'Times New Roman', Times, serif;
+
+
+// IMPORTS
 @import "partials/toc";
-
-body {
-    background: $color-background;
-
-} 
+@import "partials/typography";
+@import "partials/buttons";
