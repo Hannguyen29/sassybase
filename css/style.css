@@ -15,11 +15,11 @@ TABLE OF CONTENTS
 */
 /* BASE TEXT FONTS */
 body {
-  font-family: "Source Sans Pro", Helvetica, Arial, Helvetica;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif, Georgia, "Times New Roman", Times, serif;
+  font-family: "Source Serif Pro", Georgia, "Times New Roman", Times, serif;
 }
 
 /* BASE TYPOGRAPHY */
@@ -29,7 +29,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0.5em 0;
+  margin: 0 0 0.5em 0;
 }
 
 /* TRADITIONAL TYPOGRAPHY SCALE */
@@ -89,4 +89,21 @@ hr {
 }
 .button:hover {
   background-color: rgb(113, 161, 224);
+}
+
+/* RESPONSIVE IMAGES */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* RESET BODY */
+body {
+  margin: 10;
+}
+
+/* CONTAINER */
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
 }

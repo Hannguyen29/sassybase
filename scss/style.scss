@@ -9,16 +9,17 @@ $color-accent-dark: rgb(113, 161, 224);
 
 $color-lightgrey: rgba(0,0,0,.5);
 
-/* BASE TEXT FONTS */
-body {
-    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Source Serif Pro", Georgia, "Times New Roman", Times, serif;
-  }
+$font-family-sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-serif: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
+
+// BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
 
 // IMPORTS
 @import "partials/toc";
 @import "partials/typography";
 @import "partials/buttons";
+@import "partials/media";    
+@import "partials/layout";
