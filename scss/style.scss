@@ -9,9 +9,14 @@ $color-accent-dark: rgb(113, 161, 224);
 
 $color-lightgrey: rgba(0,0,0,.5);
 
-$font-family-sans: 'Source Sans Pro', Helvetica, Arial, Helvetica;
-$font-family-serif: sans-serif, Georgia, 'Times New Roman', Times, serif;
-
+/* BASE TEXT FONTS */
+body {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Serif Pro", Georgia, "Times New Roman", Times, serif;
+  }
 
 // IMPORTS
 @import "partials/toc";
